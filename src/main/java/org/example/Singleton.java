@@ -3,9 +3,9 @@ package org.example;
 public class Singleton {
 
     private static Singleton instance;
-    String  name;
-    boolean active;
-    int     number;
+    public String  name;
+    public boolean active;
+    public int     number;
 
     private Singleton(String name, boolean active, int number) {
 
